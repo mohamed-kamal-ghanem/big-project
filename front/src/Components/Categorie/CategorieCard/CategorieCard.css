@@ -1,0 +1,34 @@
+
+.allCard{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 150px;
+    align-items: center;
+}
+
+.categoty-card {
+    position: absolute;
+    height: 140px;
+    width:140px;
+    border-radius: 50%;
+    opacity: 0.3;
+    z-index: -1;
+}
+.categoty-card-img {
+    max-width: 110px;
+    max-height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80%;
+    object-fit: contain;
+}
+.categoty-card-text {
+    color: #555550;
+    font-family: Almarai;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}

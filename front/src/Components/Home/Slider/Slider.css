@@ -1,0 +1,38 @@
+
+.swiper {
+    height: 300px;
+  background: linear-gradient(173.68deg, #ffedf5 0%, #ffd5e7 100%);
+
+}
+.swiper img{
+  width: 200px;
+  height: 200px;
+}
+.swiper-item{
+    flex-wrap: wrap;
+    height: 300px;
+}
+.caption{
+    min-width: 100px;
+}
+.swiper-wrapper{
+  background: linear-gradient(173.68deg, #ffedf5 0%, #ffd5e7 100%);
+}
+
+.slider-title {
+  color: #915970;
+  font-family: Almarai;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 32px;
+  text-align: center;
+}
+.slider-text {
+  color: #915970;
+  font-family: Almarai;
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: 53px;
+  text-align: center;
+}

@@ -1,0 +1,30 @@
+.container.PaymentPage {
+
+    // display: flex;
+    // flex-direction: column;
+    // justify-self: center;
+    // align-items: center;
+    .product-cart-add {
+        width: 150px;
+    }
+}
+
+form {
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 7px;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    .form-check-dev{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        font-size: 20px;
+        margin: 3px 0;
+    }
+}
+
+.select-address{
+    width: 300px;
+}
